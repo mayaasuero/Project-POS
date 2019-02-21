@@ -12,8 +12,8 @@ This Point of Sales (POS) program will give business owners a convenient way of 
 Possible data structures and algorithms to be used:
 
 The possible data structures and algorithms that can be used in this program includes: 
--	trees which will store the different products the store offers 
+- array of objects which will store the different products the store offers 
 -	algorithms that can add or delete certain elements in a tree to replicate the process different transactions
 -	objects and classes for the implementation of a tree data structure
--	tree traversal algorithms in presenting the inventory of the business
+-	array traversal algorithms in presenting the inventory of the business
 -	files in recording previous transactions conducted by the program
