@@ -9,11 +9,18 @@ Functionalities and features:
 
 This Point of Sales (POS) program will give business owners a convenient way of checking out and recording their sales real time. It can keep a record of the store inventory, updating it whenever an order is processed. This program can help ease the flow at checkout terminals, while recording all the information that can help small to medium business owners be more efficient in managing their businesses.
 
+Features:
+ - add a product
+ - purchase product
+ - calculate total sales
+ - show inventory
+ - revenue * (consult with group)
+
 Possible data structures and algorithms to be used:
 
 The possible data structures and algorithms that can be used in this program includes: 
--	trees which will store the different products the store offers 
+-	an array which will store the different products the store offers 
 -	algorithms that can add or delete certain elements in a tree to replicate the process different transactions
 -	objects and classes for the implementation of a tree data structure
--	tree traversal algorithms in presenting the inventory of the business
+- searching algorithm * (consult with group)
 -	files in recording previous transactions conducted by the program
