@@ -1,36 +1,39 @@
 import java.io.*;
-public class Product implements java.io.Serializable{
+public class Node_Product implements java.io.Serializable{
+	public Node_Product reference;
+	private String item;
 	private float price;
 	private int size;
 	private int quantity;
 	private String color;
 	private int code;
-	private String name;
 	
 	/**Constructor method
 	  *@params: n/a
 	  *@return: void
 	*/
-	public void Product(){
-		this.price = 0;
+	public void Node_Product(){
+		this.reference = null;
+		this.item = "";
 		this.size = 0;
+		this.price = 0;
 		this.quantity = 0;
-		this.color = "";
 		this.code = 0;
-		this.name = "";
+		this.color = "";
 	}
 	
-	/**new_Prouct method: defines attributes of object
+	/**defineAttributes method: defines attributes of object
 	  *@params: String mod, float cost, int si, int qty, String col, int cde
 	  *@return: void
 	*/
-	public void new_Product(String mod, float cost, int si, int qty, String col, int cde){
-		this.name = mod;
+	public void defineAttributes(String mod, float cost, int si, int qty, String col, int cde){
+		this.item = mod;
 		this.price = cost;
 		this.size = si;
 		this.quantity = qty;
 		this.code = cde;
 		this.color = col;
+		this.reference = null;
 	}
 	
 	/**getMod method: returns name of product
@@ -38,7 +41,7 @@ public class Product implements java.io.Serializable{
 	  *@return: String
 	*/
 	public String getMod() {
-		return this.name;
+		return this.item;
 	}
 	
 	/**getCost method: returns cost of product
